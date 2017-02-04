@@ -2,9 +2,7 @@
 title: Communauté
 menu_index: 2
 additional_css: communaute
-additional_js:
-	- https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js
-	- communaute
+additional_js: communaute, https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js
 ---
 {% capture build_date %}{{ site.time | date:"%Y-%m-%d" }}{% endcapture %}
 {% assign members = site.author | sort: 'start' | reverse %}

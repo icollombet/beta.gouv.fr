@@ -45,7 +45,8 @@
 		<script type="text/javascript" src="https://oss.maxcdn.com/jquery/2.2.2/jquery.min.js"></script>
 		<script type="text/javascript" src="https://oss.maxcdn.com/semantic-ui/2.1.8/components/transition.min.js"></script>
 
-		{% for file in page.additional_js %}
+		{% assign js = page.additional_js | split: ',' %}
+		{% for file in js %}
 			<script type="text/javascript" src="{% if file contains '://' %}{{ file }}{% else %}/js/{{ file }}.js{% endif %}"></script>
 		{% endfor %}
 	</body>
