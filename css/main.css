@@ -151,27 +151,30 @@ body > footer li a:hover {
 }
 
 .construction {
-	background-color: #067b94;
+	background-color: #92255D;
 }
 
 .consolidation {
-	background-color: #04677c;
+	background-color: #668018;
 }
 
 .passation {
-	background-color: #067071;
+	background-color: #066F71;
 }
 
 .death {
-	background-color: #5c5151;
+	color: #000000;
+	background-color: #767473;
 }
 
 .retirement {
-	background-color: #68696B;
+	color: #000000;
+	background-color: #b3b4b6;
 }
 
 .success {
-	background-color: #826D00;
+	color: #000000;
+	background-color: #FFD700;
 }
 
 .action {
